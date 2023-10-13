@@ -48,3 +48,10 @@ p {
   float: left; /* Float the image to the right */
   margin-left: 10px; /* Add some spacing between the text and the image */
 }
+
+.ydog-image {
+  width: 200px; /* Set the width of the image to your desired size */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  float: center; /* Float the image to the right */
+  margin-left: 10px; /* Add some spacing between the text and the image */
+}
