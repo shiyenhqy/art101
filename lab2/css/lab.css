@@ -49,14 +49,14 @@ p {
   margin: auto; /* Center the image horizontally by adding margin */
 }
 
-.p-dog {
+.pdog-image {
   width: 50px;
   height: auto;
   display: block;
   margin: auto;
 }
 
-.y-dog {
+.wdog-image {
   width: 200px;
   height: auto;
   display: block;
