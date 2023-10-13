@@ -43,10 +43,10 @@ p {
 }
 
 .dog-image {
-  width: 200px; /* Set the width of the image to your desired size */
+  width: 200px; /* Set the width of the image to 200 pixels */
   height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  float: block; /* Float the image to the right */
-  margin-left: 0; /* Add some spacing between the text and the image */
+  display: block; /* Make the image a block-level element to center it horizontally */
+  margin: 0 auto; /* Center the image horizontally by adding margin */
 }
 
 .wdog-image {
