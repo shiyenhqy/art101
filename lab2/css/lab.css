@@ -16,11 +16,11 @@ body {
   background-color: #f5e9c1;
 }
  @font-face {
-  font-family: "fontgirl.ttf";
-  src: url("../img/fontgirl.ttf") format("truetype");
+  font-family: "pinkybink.otf";
+  src: url("../img/pinkybink.otf") format("truetype");
  }
 h1 {
-  font-family: 'fontgirl.ttf';
+  font-family: 'pinkybink.otf';
 }
 
 h1 {
