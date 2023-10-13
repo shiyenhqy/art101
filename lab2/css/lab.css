@@ -42,8 +42,12 @@ p {
   text-align: center;
 }
 
-p1 {
-font-size: 100%;
+.minor-section p {
+  font-size: 16px; /* Set a base font size for all paragraphs */
+}
+
+.minor-section p:first-of-type {
+  font-size: 18px; /* Set a larger font size for the first paragraph */
 }
 
 .dog-image {
