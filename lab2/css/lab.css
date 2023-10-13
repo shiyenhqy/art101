@@ -16,18 +16,22 @@ body {
   background-color: #f5e9c1;
 }
  @font-face {
-  font-family: "pups.ttf";
-  src: url("../img/pups.ttf") format("truetype");
+  font-family: "fontgirl.ttf";
+  src: url("../img/fontgirl.ttf") format("truetype");
  }
-h1,h2 {
-  font-family: 'pups.ttf';
+h1 {
+  font-family: 'fontgirl.ttf';
 }
 
 h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
-  font-size: 400%;
+  font-size: 300%;
   text-align: center;
+}
+
+h2 {
+  font-family: 'fontgirl.ttf';
 }
 
 h2 {
