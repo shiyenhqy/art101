@@ -52,7 +52,7 @@ p {
 .dog-image {
   width: 200px; /* Set the width of the image to your desired size */
   height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  float: block; /* Float the image to the right */
+  float: none; /* Float the image to the right */
   margin-left: auto; /* Add some spacing between the text and the image */
 }
 
