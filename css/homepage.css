@@ -1,12 +1,16 @@
 /* this css file will only style the homepage of our site */
 
 body {
-  background-color: #e1ceb0;
+  background-color: #ffffff;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+p {
+  font-family: 'Comic Sans MS', cursive;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -16,25 +20,60 @@ h1 {
   font-size: 200%;
 }
 
+h5 {
+  text-indent: 2.68%;
+}
+
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #e1ceb0;
-  background-color: #e1ceb0;
+  border: solid 1px #ffffff;
+  background-color: #ffffff;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #e1ceb0;
-  background-color: #e1ceb0;
+  border: solid 1px #ffffff;
+  background-color: #ffffff;
 }
 
 .my-portrait {
-  width: 150px;
+  width: 200px;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+/* chatgpt sourced to make gif independent */
+.hamtaro-seeds {
+  position: absolute;
+  width: 300px;
+  top: 180px; /* Adjust the top position as needed */
+  right: 210px; /* Adjust the left position as needed */
+  z-index: 999; /* Make sure the z-index is high enough to ensure the GIF is on top of other content */
+}
+
+.spintaro {
+  position: absolute;
+  width: 180px;
+  top: 220px;
+  left: 240px;
+  z-index: 999;
+}
+
+/* chatgpt sourced to change font of links in html */
+#links a {
+  font-family: 'Comic Sans MS', cursive; /* Use your preferred font */
+  font-size: 16px; /* You can adjust the font size as needed */
+  color: #ffaf53; /* You can set the font color to your preferred color */
+  text-decoration: none; /* This removes the default underline on links */
+
+}
+
+/* styles.css */
+#links ul {
+  list-style: none; /* Remove default list styles, including bullets */
 }
