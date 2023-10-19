@@ -11,6 +11,8 @@ h1,h2,h3 {
 
 p {
   font-family: 'Comic Sans MS', cursive;
+  position: center;
+  margin: 10px;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -26,9 +28,9 @@ h5 {
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
-  border: solid 1px #ffffff;
+  border: solid 15px #ff80cc;
   background-color: #ffffff;
 }
 
