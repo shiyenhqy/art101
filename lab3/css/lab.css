@@ -7,3 +7,44 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+  .file-structure {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .taskone {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .tasktwo {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .taskthree {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .tasktwo-two {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .taskthree-two {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
