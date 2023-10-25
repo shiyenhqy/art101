@@ -4,6 +4,21 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #5774b4;
+    background-color: #a5aad2;
+  }
+
+  body {
+    background-color: #dfe5ff;
+  }
+
+h1, h2 {
+  font-family: 'Helvetica'
+}
+
+  p {
+    font-family: 'Helvetica';
+    position: center;
+    margin: 20px;
+    color: #ffffff;
   }
