@@ -1,6 +1,6 @@
 //Rock-Paper-Scissors
 //An Implementation of the Game
-//Shiyen Yang shhyang@ucsc.edi
+//Shiyen Yang shhyang@ucsc.edu
 // October 2023
 
 // Functions
