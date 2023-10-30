@@ -2,13 +2,20 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  margin-bottom: 15px;
+  border: solid 1px #f5e9c1;
+  background-color: #94a185;
+}
 
-  
+body {
+background-color: #ffffff;
+}
+#content {
+border: solid 0px;
+background-color: #ffffff;
+}
+
   .matrix-image {
     width: 290px; /* Set the width of the image to 200 pixels */
     height: auto; /* Automatically adjust the height to maintain the aspect ratio */
