@@ -2,23 +2,22 @@
 // Date: 2023 October 31
 // Lab 7 - Functions
 
-function sortUsername() {
-    console.log("function is called");
+function sortUserName() {
+    var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
+    console.log("userName =", userName);
 
-    let name = window.prompt("Hi, please give me your name so I can fix it");
-    console.log("name");
+    var nameArray = userName.split('');
+    console.log("nameArray =", nameArray);
 
-    if (name.length < 1) {
-        return "nameless being";
-    }
+    var nameArraySort = nameArray.sort();
+    console.log("nameArraySort =", nameArraySort);
 
-    let nameArr = name.split(' ');
-    for (let i = 0; i < nameArr.length; ++i) {
-        nameArr[i] = nameArr[i].toLowerCase().split('').sort().reverse().join('');
-    }
+    var nameSorted = nameArraySort.join('');
+    console.log("nameSorted =", nameSorted);
 
-    name = nameArr.join(' ');
-    return name;
+    return nameSorted;
 }
 
-document.writeln(sortUserName());
+//Output
+document.writeln("Oh hey, I've fixed your name: ",
+    sortUserName(), "</br>");
