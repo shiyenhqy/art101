@@ -1,27 +1,21 @@
-/*
-   lab.js - This simple JavaScript/jQuery script uses buttons to modify some elements on the page
+// Author: Shiyen Yang <shhyang@ucsc.edu>
+// Date: 13 November 2023
+// Lab 9 - Libraries and jQuery: Experimenting with jQuery
 
-   Requirements: jQuery must be loaded for this script to work.
-
-   Author: Wes Modes
-   Date: 2023
-*/
-
-// Add button to challenge section
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
-
-// Add click listener to the challenge button
+$(".challenge").append("<button id='button-challenge'>Make Special</button>");
 $("#button-challenge").click(function(){
-    // Now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("special");
+    // now add (or subtract) the "special" class to the section
+    $("#button-challenge").toggleClass("special");
 });
 
-// Add buttons to other sections (Problems and Results)
-$("#problems").append("<button class='special-button'>Make Special</button>");
-$("#results").append("<button class='special-button'>Make Special</button>");
+$(".problems").append("<button id='button-problems'>Make Special</button>");
+$("#button-problems").click(function(){
+    // now add (or subtract) the "special" class to the section
+    $("#button-problems").toggleClass("special");
+});
 
-// Add a click listener to all special buttons
-$(".special-button").click(function(){
-    // Use $(this).parent() to select the section that the button is in
-    $(this).parent().toggleClass("special");
+$(".results").append("<button id='button-results'>Make Special</button>");
+$("#button-results").click(function(){
+    // now add (or subtract) the "special" class to the section
+    $("#button-results").toggleClass("special");
 });
