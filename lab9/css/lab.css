@@ -22,11 +22,11 @@ p {
     font-size: 20px;
 }
 
-#links ul {
+#links ul, ul2 {
     list-style: none;
   }
   
-  .special {
+.special {
     background-color: rgb(225, 154, 255);
     border: dotted 50px rgb(0, 208, 255);
     color: rgb(108, 2, 20);
