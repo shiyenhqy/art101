@@ -13,6 +13,14 @@ body {
   background-color: #ffefb9;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
 h1, h2 {
     color: #98006b;
     font-family: 'Helvetica'
