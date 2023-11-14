@@ -3,7 +3,7 @@
 // Lab 10: JavaScript on the Web
 
 function generateRandomText() {
-    const text = "hello kitty how are you today";
+    const text = "hello kitty how are you today come out and play oh it's such a sunny day";
     const min = 3;
     const max = 100;
     const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
