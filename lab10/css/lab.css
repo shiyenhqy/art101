@@ -1,0 +1,28 @@
+.challenge, .problems, .results {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid 10px rgb(210, 82, 172);
+    background-color: #ffd2f2;
+  }
+
+body {
+  background-color: #ffefb9;
+}
+#content {
+  border: solid 0px;
+  background-color: #ffefb9;
+}
+
+h1, h2 {
+    color: #98006b;
+}
+
+p {
+    color: rgb(213, 104, 186);
+    font-size: 30px;
+}
+
+#links ul {
+    list-style: none;
+  }
+  
