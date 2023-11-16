@@ -15,7 +15,7 @@ $(document).ready(function () {
   
       const userNameSorted = sortString(userName);
   
-      $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+      $("#output").append('<div class="text"><p>' + userNameSorted + '</p></div>');
     });
   });
   
