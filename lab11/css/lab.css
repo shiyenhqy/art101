@@ -49,3 +49,9 @@ p {
     display: block; /* Make the image a block-level element to center it horizontally */
     margin: 0 auto; /* Center the image horizontally by adding margin */
 }
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
