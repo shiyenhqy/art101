@@ -1,0 +1,51 @@
+.challenge, .problems, .results {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid 10px #73914a;
+    background-color: #73914a;
+  }
+
+body {
+  background-color: #e2ffb9;
+}
+#content {
+  border: solid 0px;
+  background-color: #e2ffb9;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1 {
+    color: #ff7ed8;
+    font-family: 'Comic Sans MS';
+}
+
+h2 {
+    color: #ffd2f1;
+    font-family: 'Comic Sans MS';
+}
+
+p {
+    color: #ffa2e3;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+
+#links ul {
+    list-style: none;
+    font-family: Comic Sans MS;
+  }
+
+.kppi-gif {
+    width: 200px; /* Set the width of the image to 200 pixels */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    display: block; /* Make the image a block-level element to center it horizontally */
+    margin: 0 auto; /* Center the image horizontally by adding margin */
+}
