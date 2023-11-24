@@ -42,3 +42,9 @@ p {
     list-style: none;
     font-family: Comic Sans MS;
   }
+
+  .input-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
