@@ -4,7 +4,7 @@
 
 function sortingHat(str) {
     len = str.length;
-    mod = len % 4;
+    mod = len % 5;
     if (mod == 0) {
         return "Golden Retriever"
     }
@@ -16,6 +16,9 @@ function sortingHat(str) {
     }
     else if (mod == 3) {
         return "German Shephard"
+    }
+    else if (mod == 4) {
+        return "Chihuahua"
     }
 }
 
