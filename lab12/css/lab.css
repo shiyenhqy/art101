@@ -1,0 +1,44 @@
+.challenge, .problems, .results {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid 10px rgb(255, 255, 255);
+    background-color: #ffffff;
+  }
+
+body {
+  background-color: #ffffff;
+}
+#content {
+  border: solid 0px;
+  background-color: #ffffff;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1 {
+    color: #ff7ed8;
+    font-family: 'Comic Sans MS';
+}
+
+h2 {
+    color: #ff9ce0;
+    font-family: 'Comic Sans MS';
+}
+
+p {
+    color: #ffbaea;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+
+#links ul {
+    list-style: none;
+    font-family: Comic Sans MS;
+  }
