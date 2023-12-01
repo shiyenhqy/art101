@@ -3,22 +3,22 @@
 // Lab 8 - Anon Functions and Callbacks
 
 // Array
-array = [2, 4, 6, 8, 10]
+const array = [2, 4, 6, 8, 10];
 console.log("My array", array);
 
-function AddOne (x) {
-    var results = x + 1
-    return results;
+function addOne(x) {
+  var result = x + 1;
+  return result;
 }
 
-console.log("what is 1+1? ", AddOne(1));
+console.log("What is 1+1? ", addOne(1));
 
-var result = array.map(AddOne);
-console.log("Adding One:", result);
+var resultAddingOne = array.map(addOne);
+console.log("Adding One:", resultAddingOne);
 
-array.map (function(x) {
-    var results = x * 3
-    return results;
-})
-console.log("Multiplying by Three:", result);
+var resultMultiplyingByThree = array.map(function (x) {
+  var result = x * 3;
+  return result;
+});
 
+console.log("Multiplying by Three:", resultMultiplyingByThree);
