@@ -1,0 +1,42 @@
+.challenge, .problems, .result {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+body {
+  background-color: #ffffff;
+}
+#content {
+  border: solid 0px;
+  background-color: #ffffff;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1 {
+    color: #3f6543;
+    font-family: 'Comic Sans MS';
+}
+
+h2 {
+    color: #3f6543;
+    font-family: 'Comic Sans MS';
+}
+
+p {
+    color: #cf9b7a;
+    font-size: 17px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+
+#links ul {
+    list-style: none;
+    font-family: Comic Sans MS;
+  }
