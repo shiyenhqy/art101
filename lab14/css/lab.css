@@ -36,7 +36,8 @@ p {
     text-align: center;
 }
 
-#links ul {
+#links1 ul {
     list-style: none;
     font-family: Comic Sans MS;
+    text-align: center;
   }
