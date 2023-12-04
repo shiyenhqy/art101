@@ -1,0 +1,58 @@
+.challenge, .problems, .results {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+body {
+  background-color: #8ab4d2;
+}
+#content {
+  border: solid 0px;
+  background-color: #8ab4d2;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1 {
+    color: #522f19;
+    font-family: 'Comic Sans MS';
+}
+
+h2 {
+    color: #6c3614;
+    font-family: 'Comic Sans MS';
+}
+
+p {
+    color: #98410a;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+
+#links ul {
+    list-style: none;
+    font-family: Comic Sans MS;
+  }
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#activate {
+    padding: 10px 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    margin: auto; /* This will center the button horizontally */
+    display: block; /* This will make it a block element, so margin: auto works */
+}
