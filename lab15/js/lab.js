@@ -15,36 +15,30 @@ $(document).ready(function () {
             type: "GET",
             // The type of data we expect back
             dataType: "json",
-            // What to do when the API call is successful
+            // code help from chatgpt to show the gif result and answer result
             success: function (data) {
-                // Access the URL of the GIF from the response
+
                 var gifUrl = data.image;
-            
-                // Create an image element
+        
                 var gifElement = $('<img>', {
                     src: gifUrl,
                     alt: 'Yes/No GIF',
                     class: 'result-gif'
                 });
-            
-                // Access the answer from the response
+        
                 var answer = data.answer;
-            
-                // Create a paragraph element for the text result
+        
                 var textElement = $('<p>').text("Answer: " + answer);
             
-                // Create a container div for both the image and the text
                 var resultsContainer = $('<div>', {
                     class: 'results-container'
                 });
             
-                // Append the image and text to the container div
                 resultsContainer.append(gifElement, textElement);
             
-                // Clear the previous content and append the container to the output div
                 $('#output').empty().append(resultsContainer);
-            },            
-            
+            },          
+              
             // What to do if the API call fails
             error: function (jqXHR, textStatus, errorThrown) {
                 // Log the error
