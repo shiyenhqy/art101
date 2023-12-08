@@ -85,3 +85,8 @@ body {
 #showComicButton {
     margin-top: 15px; /* Add margin to space out the button from the content */
 }
+
+#output {
+    max-width: 80%; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the content within the container */
+}
