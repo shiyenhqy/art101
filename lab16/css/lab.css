@@ -72,3 +72,16 @@ body {
     margin: auto; /* This will center the button horizontally */
     display: block; /* This will make it a block element, so margin: auto works */
 }
+
+/*help from chatgpt to center my button in the middle and above the generated results */
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#showComicButton {
+    margin-top: 15px; /* Add margin to space out the button from the content */
+}
